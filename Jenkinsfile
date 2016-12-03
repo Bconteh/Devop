@@ -1,7 +1,6 @@
 node {
-	'Stage 1'
-	echo 'hello world'
-	'Stage 2'
-	echo 'hello world'
-
+   stage 'Stage 1'
+   		echo 'Hello World 1'
+   stage 'Stage 2'
+   		echo 'Hello World 2'
 }
