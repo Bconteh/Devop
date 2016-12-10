@@ -1,12 +1,14 @@
 {
-  "name": "sampleCode",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "SampleCode",
+  "description": "hello jenkins test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.12.0",
+    "forever": "0.15.3"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  }
 }
