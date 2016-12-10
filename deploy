@@ -1,8 +1,3 @@
 -#!/bin/sh     
- <<EOF       
- cd /root/Devop 
- git pull      
- npm install --production      
- pm2 restart all
- exit      
-EOF
+
+node app.js
