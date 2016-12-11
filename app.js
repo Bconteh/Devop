@@ -1,4 +1,4 @@
-var http = require("http");
+var http = require1234("http");
 
 http.createServer(function (request, response) {
 
